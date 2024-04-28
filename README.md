@@ -1,20 +1,17 @@
-# Build and Deploy Unified Conversational Agent with Text and Image Search(UCATI): Next.js 14, React, Uploadthing, RapidApi,Tailwind
+# Build Unified Conversational Agent with Text and Image Search (UCATI): Next.js 14, React, Uploadthing, OpenAI, Tailwind, React librarys
 
 
-This is a repository for Build and Deploy UCATI: Next.js 14, React, Uploadthing, RapidApi,Tailwind
+This is a repository for Build UCATI: Next.js 14, React, Uploadthing, GPTtarbo, Tailwind 
 
-Under the Supervisor :- 
-Dr. Rajneesh Kumar Patel
+Under the Supervisor of **Dr. Rajneesh Kumar Patel (Assistant Professor, School of Computing Science and Engineering, VIT Bhopal)**
+And Developed By Aayush kachhwaha and Apoorva Raj as Finel year project. 
 
 
-Key Features:
+Key Features of the project:
 
-- 🔍 Google search (All Section).
-- 🎥 Videos search.
 - 📤 Images upload using uploadthing.
-- 🌏 Search image using Google Lens Api.
+- 🌏 Search image using GPT Api.
 - 📤🔗Search image by uploading images and retrieving image url.
-- 🔗 Search image using your own image url.
 - </> Display description using HTML-React-Parser.
 - 🔮 Web theme using Next-themes
 
@@ -24,24 +21,13 @@ Key Features:
 
 ### Fill in API keys
 
-**DuckDuck**
+**Open AI**
 
 ```js
  headers: {
      // you api key here
-     "X-RapidAPI-Key": "",
-     "X-RapidAPI-Host": "duckduckgo10.p.rapidapi.com",
+     "OPENAI_API_KEY ": " www.openai.com",
    }
-```
-
-**Google Lens API**
-
-```js
-  headers: {
-      // fill in API key her
-      "X-RapidAPI-Key": "",
-      "X-RapidAPI-Host": "google-lens-image-search1.p.rapidapi.com",
-    }
 ```
 
 ### Install packages
@@ -58,8 +44,7 @@ UPLOADTHING_APP_ID=
 // From Uploading Thing docs
 
 // or fill in Rapid api keys here
-GogleLensKey=
-DuckDuckKey=
+OPENAI_API_KEY =
 ```
 
 ### Start the app
